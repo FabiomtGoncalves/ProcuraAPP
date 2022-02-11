@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/inseto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF"
+        android:text="@string/data_hora"
+        android:textColor="#035815"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/outline6"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/ivImagem"
+        app:layout_constraintTop_toBottomOf="@+id/tvNomeClassificacao" />
+
+    <TextView
+        android:id="@+id/outline6"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/outline_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/inseto5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        android:text="@string/inseto"
+        android:textColor="#035815"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/outline6"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@+id/ivImagem"
+        app:layout_constraintTop_toTopOf="@+id/outline6" />
+
+    <TextView
+        android:id="@+id/tvDataHora"
+        android:layout_width="170dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/data_e_hora"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/outline6"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/ivImagem"
+        app:layout_constraintTop_toBottomOf="@+id/inseto4" />
+
+    <ImageView
+        android:id="@+id/ivImagem"
+        android:layout_width="110dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/outline6"
+        app:layout_constraintStart_toStartOf="@+id/outline6"
+        app:layout_constraintTop_toTopOf="@+id/outline6"
+        app:srcCompat="@drawable/ic_bug" />
+
+    <TextView
+        android:id="@+id/tvNomeClassificacao"
+        android:layout_width="210dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/ordem_taxon_mica"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/outline6"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toEndOf="@+id/ivImagem"
+        app:layout_constraintTop_toBottomOf="@+id/inseto5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

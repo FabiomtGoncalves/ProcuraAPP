@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment">
+
+
+
+    <!-- android:background="@drawable/ic_plants"
+            android:backgroundTint="#8E6A2E" -->
+
+
+    <!-- android:backgroundTint="#E34040" -->
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMinhasRochas"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ic_amp"
+        android:backgroundTint="#8E6A2E"
+        android:fontFamily="monospace"
+        android:gravity="bottom|center"
+        android:padding="6dp"
+        android:text="@string/as_minhas_rochas"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/btnClassificarPlantas"
+        app:layout_constraintTop_toBottomOf="@+id/btnMinhasPlantas"
+        app:layout_constraintVertical_bias="0.159" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMeusInsetos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_amp"
+        android:backgroundTint="#378508"
+        android:fontFamily="monospace"
+        android:gravity="bottom|center"
+        android:padding="5dp"
+        android:text="@string/os_meus_insetos"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/btnClassificar"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <!-- android:background="@drawable/ic_plants"
+            android:backgroundTint="#930C0C" -->
+
+    <!-- android:background="@drawable/ic_plants"
+            android:backgroundTint="#604524" -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMinhasPlantas"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_amp"
+        android:backgroundTint="#E34040"
+        android:fontFamily="monospace"
+        android:gravity="bottom|center"
+        android:padding="3dp"
+        android:text="@string/as_minhas_plantas"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/btnClassificarPlantas"
+        app:layout_constraintTop_toBottomOf="@+id/btnMeusInsetos" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClassificarPlantas"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_plants"
+        android:fontFamily="monospace"
+        android:gravity="bottom|center"
+        android:text="@string/classificar_plantas"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClassificar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClassificarPlantas2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ic_rock"
+        android:enabled="false"
+        android:fontFamily="monospace"
+        android:gravity="bottom|center"
+        android:padding="6dp"
+        android:text="@string/classificar_rochas"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClassificarPlantas"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClassificar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_bug"
+        android:fontFamily="monospace"
+        android:gravity="bottom|center"
+        android:text="@string/classificar_insetos"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorHighlight="#970B0B"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/desenvolvido_por_f_bio_gon_alves"
+        android:textColor="#6C6A6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/lupa_edited"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/procura_app"
+        android:textColor="#61EAB3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ivNotification"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="2dp"
+        android:src="@drawable/notification"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMeusInsetos"
+        app:layout_constraintEnd_toEndOf="@+id/btnMeusInsetos"
+        app:layout_constraintStart_toStartOf="@+id/btnMeusInsetos"
+        app:layout_constraintTop_toTopOf="@+id/btnMeusInsetos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

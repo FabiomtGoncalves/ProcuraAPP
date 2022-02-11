@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_fragment_label">main_fragment_label</string>
+    <string name="app_name">Procura APP</string>
+    <string name="key_file">chave.json</string>
+    <string name="classificar_insetos">Classify Insects</string>
+    <string name="classificar_plantas">Classify Plants</string>
+    <string name="procura_app">SEARCH APP</string>
+    <string name="desenvolvido_por_f_bio_gon_alves">© Developed by Fábio Gonçalves</string>
+    <string name="classificar_rochas">Classify Rocks</string>
+    <string name="as_minhas_plantas">My Plants</string>
+    <string name="os_meus_insetos">My Insects</string>
+    <string name="as_minhas_rochas">My Rocks</string>
+    <string name="data_hora">Date / Hour:</string>
+    <string name="inseto">Insect:</string>
+    <string name="ordem_taxon_mica">Taxonomic Order</string>
+    <string name="data_e_hora_detalhes">Date and Hour</string>
+    <string name="descri_o">Description</string>
+    <string name="tvDataHoraDetalhes">tvDateHourDetails</string>
+    <string name="caracter_sticas">Characteristics</string>
+    <string name="tvdescricao">tvDescription</string>
+    <string name="localiza_o">Location</string>
+    <string name="guardar">Save</string>
+    <string name="apagar">Delete</string>
+    <string name="data_e_hora">tvDateandHour</string>
+    <string name="tvcaracteristicas">tvCharacteristics</string>
+    <string name="tvordem">tvOrder</string>
+    <string name="opcao_b">Option B</string>
+    <string name="questao">Question</string>
+    <string name="voltar">Back</string>
+    <string name="consultar_imagem">Check Image</string>
+    <string name="opcao_a">Option A</string>
+    <string name="a_carregar">Loading...</string>
+    <string name="insetoDetalhe">Insect</string>
+    <string name="fechar_aplicacao">Close Application</string>
+    <string name="deseja_sair">Are you sure that you want to close the app?</string>
+    <string name="cancelar">Cancel</string>
+    <string name="sair">Leave</string>
+    <string name="fotografar">Take a Picture of the Insect.</string>
+    <string name="pagina_inicial_titulo">Return to Home Screen</string>
+    <string name="pagina_inicial">Are you sure you want to cancel the classification and return to the home screen?</string>
+    <string name="sim">Yes</string>
+    <string name="pagina_anterior">Return to Previous Page</string>
+    <string name="voltar_classificar">Are you sure you want to go back and classify the insect again?</string>
+    <string name="inseto_adicionado">Insect added to your collection.</string>
+    <string name="fotografar_voltar">Are you sure you want to go back and take a picture of the insect again?</string>
+    <string name="json_erro">It wasn\'t possible to read the JSON file.</string>
+    <string name="apagar_classificacao">Delete Classification</string>
+    <string name="apagar_classificacao_message">Are you sure that you want to delete this classification?</string>
+    <string name="inseto_eliminado">Insect successfully deleted.</string>
+    <string name="ordenar">Order:</string>
+    <string-array name="ordenar">
+        <item>Ascending Order</item>
+        <item>Descending Order</item>
+        <item>Order by Name</item>
+        <item>Order by Date/Hour</item>
+    </string-array>
+    <string name="info_marcador">Hold and drag the marker to your location destination.</string>
+</resources>

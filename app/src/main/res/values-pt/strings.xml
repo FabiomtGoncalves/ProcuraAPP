@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_fragment_label">main_fragment_label</string>
+    <string name="app_name">Procura APP</string>
+    <string name="key_file">chave.json</string>
+    <string name="classificar_insetos">Classificar Insetos</string>
+    <string name="classificar_plantas">Classificar Plantas</string>
+    <string name="procura_app">PROCURA APP</string>
+    <string name="desenvolvido_por_f_bio_gon_alves">© Desenvolvido por Fábio Gonçalves</string>
+    <string name="classificar_rochas">Classificar Rochas</string>
+    <string name="as_minhas_plantas">As Minhas Plantas</string>
+    <string name="os_meus_insetos">Os Meus Insetos</string>
+    <string name="as_minhas_rochas">As Minhas Rochas</string>
+    <string name="data_hora">Data / Hora:</string>
+    <string name="inseto">Inseto:</string>
+    <string name="ordem_taxon_mica">Ordem Taxonómica</string>
+    <string name="data_e_hora_detalhes">Data e Hora</string>
+    <string name="descri_o">Descrição</string>
+    <string name="tvDataHoraDetalhes">tvDataHoraDetalhes</string>
+    <string name="caracter_sticas">Características</string>
+    <string name="tvdescricao">tvDescricao</string>
+    <string name="localiza_o">Localização</string>
+    <string name="guardar">Guardar</string>
+    <string name="apagar">Apagar</string>
+    <string name="data_e_hora">tvDataeHora</string>
+    <string name="tvcaracteristicas">tvCaracteristicas</string>
+    <string name="tvordem">tvOrdem</string>
+    <string name="opcao_b">Opção B</string>
+    <string name="questao">Questão</string>
+    <string name="voltar">Voltar</string>
+    <string name="consultar_imagem">Consultar Imagem</string>
+    <string name="opcao_a">Opção A</string>
+    <string name="a_carregar">A carregar...</string>
+    <string name="insetoDetalhe">Inseto</string>
+    <string name="fechar_aplicacao">Fechar a Aplicação</string>
+    <string name="deseja_sair">Tem a certeza que deseja sair?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sair">Sair</string>
+    <string name="fotografar">Tire uma Fotografia do Inseto.</string>
+    <string name="pagina_inicial_titulo">Voltar à Página Inicial</string>
+    <string name="pagina_inicial">Tem a certeza que deseja cancelar a classificação e voltar à página principal?</string>
+    <string name="sim">Sim</string>
+    <string name="pagina_anterior">Voltar à Página Anterior</string>
+    <string name="voltar_classificar">Tem a certeza que deseja voltar a classificar o inseto?</string>
+    <string name="inseto_adicionado">Inseto adicionado à sua coleção.</string>
+    <string name="fotografar_voltar">Tem a certeza que deseja voltar a fotografar o inseto?</string>
+    <string name="json_erro">Não foi possível ler o ficheiro JSON</string>
+    <string name="apagar_classificacao">Apagar Classificação</string>
+    <string name="apagar_classificacao_message">Tem a certeza que deseja apagar esta classificação?</string>
+    <string name="inseto_eliminado">Inseto eliminado com sucesso.</string>
+    <string name="ordenar">Ordenar:</string>
+    <string-array name="ordenar">
+        <item>Ordem Crescente</item>
+        <item>Ordem Decrescente</item>
+        <item>Ordenar por Nome</item>
+        <item>Ordenar por Data/Hora</item>
+    </string-array>
+    <string name="info_marcador">Prima e arraste o marcador para a localização desejada.</string>
+</resources>

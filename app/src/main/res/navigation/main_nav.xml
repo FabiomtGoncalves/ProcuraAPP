@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="pt.ipbeja.tp21.ui.main.MainFragment"
+        android:label="@string/main_fragment_label"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_photoFragment"
+            app:destination="@id/classificar" />
+        <action
+            android:id="@+id/action_mainFragment_to_meusInsetosFragment"
+            app:destination="@id/meusInsetosFragment" />
+    </fragment>
+    <navigation android:id="@+id/classificar"
+        app:startDestination="@id/photoFragment">
+        <fragment
+            android:id="@+id/resultadoFragment"
+            android:name="pt.ipbeja.tp21.ui.insetos.ResultadoFragment"
+            android:label="fragment_resultado"
+            tools:layout="@layout/fragment_resultado" >
+            <action
+                android:id="@+id/action_resultadoFragment_to_consultarImgRefFragment"
+                app:destination="@id/consultarImgRefFragment" />
+            <action
+                android:id="@+id/action_resultadoFragment_to_mainFragment2"
+                app:destination="@id/mainFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/photoFragment"
+            android:name="pt.ipbeja.tp21.ui.insetos.PhotoFragment"
+            android:label="fragment_photo"
+            tools:layout="@layout/fragment_photo">
+            <action
+                android:id="@+id/action_photoFragment_to_classificarFragment"
+                app:destination="@id/classificarFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/classificarFragment"
+            android:name="pt.ipbeja.tp21.ui.insetos.ClassificarFragment"
+            android:label="fragment_classificar"
+            tools:layout="@layout/fragment_classificar">
+            <action
+                android:id="@+id/action_classificarFragment_to_resultadoFragment"
+                app:destination="@id/resultadoFragment"
+                app:enterAnim="@android:anim/slide_in_left" />
+            <action
+                android:id="@+id/action_classificarFragment_to_popUpFragment"
+                app:destination="@id/consultarImgRefFragment"
+                app:enterAnim="@android:anim/slide_in_left"
+                app:exitAnim="@android:anim/slide_out_right" />
+        </fragment>
+        <fragment
+            android:id="@+id/consultarImgRefFragment"
+            android:name="pt.ipbeja.tp21.ui.insetos.ConsultarImgRefFragment"
+            android:label="consultarImgRefFragment" />
+        <action
+            android:id="@+id/action_global_mainFragment"
+            app:destination="@id/mainFragment" />
+    </navigation>
+    <fragment
+        android:id="@+id/meusInsetosFragment"
+        android:name="pt.ipbeja.tp21.ui.insetos.MeusInsetosFragment"
+        android:label="fragment_meus_insetos"
+        tools:layout="@layout/fragment_meus_insetos" >
+        <action
+            android:id="@+id/action_meusInsetosFragment_to_detalheFragment"
+            app:destination="@id/detalheFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalheFragment"
+        android:name="pt.ipbeja.tp21.ui.insetos.DetalheFragment"
+        android:label="fragment_detalhe"
+        tools:layout="@layout/fragment_detalhe" >
+        <action
+            android:id="@+id/action_detalheFragment_to_classificar"
+            app:destination="@id/classificar" />
+        <argument
+            android:name="detalhesInseto"
+            app:argType="pt.ipbeja.tp21.data.Inseto" />
+        <action
+            android:id="@+id/action_detalheFragment_to_meusInsetosFragment"
+            app:destination="@id/meusInsetosFragment" />
+    </fragment>
+</navigation>
