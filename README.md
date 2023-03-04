@@ -7,4 +7,4 @@ UC: Programação para Dispositivos Móveis (PDM)
 IDE: Android Studio
 Local DB: Room
 ```
-![About the app](https://github.com/FabiomtGoncalves/ESTIGmail-React/blob/master/imgs/homepage.png)
+![About the app](https://github.com/FabiomtGoncalves/ProcuraAPP/blob/master/desc.png)
